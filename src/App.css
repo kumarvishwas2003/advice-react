@@ -1,0 +1,43 @@
+*{
+  font-family: "Manrope", sans-serif;
+}
+.container{
+background-color: hsl(218, 23%, 16%);
+/* width: 100vw; */
+
+}
+.advice-main{
+background-color: hsl(217, 19%, 24%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-bottom: 4rem; /* Add space for the button */
+        border-radius: 1rem;
+        max-width: 90%;
+}
+.advice-id-head{
+color: hsl(150, 100%, 66%);
+font-weight: 800;
+}
+.advice-content{
+font-size: 28px;
+font-weight: 800;
+}
+.adviceBtn{
+background-color: hsl(150, 100%, 66%);
+        position: absolute;
+        bottom: -2rem; /* Position button outside the bottom */
+        left: 50%;
+        transform: translateX(-50%);
+}
+.hover-glow:hover {
+        box-shadow: 0 0 15px 3px hsl(150, 100%, 66%);
+    }
+    .advice-content{
+      padding:10px;
+      min-height: 190px;
+      
+    }
